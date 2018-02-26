@@ -1,0 +1,83 @@
+body, label, input, button, select, textarea, .uneditable-input, .navbar-search .search-query {
+    font-family: Helvetica, Georgia, Arial, sans-serif, 宋体;
+    font-size: 18px;
+}
+
+a {
+    color: #08c;
+    text-decoration: none;
+    outline: none;
+}
+
+
+a:hover,a:focus {
+    color: #005580;
+    text-decoration: none;
+    outline: none;
+}
+
+
+.nav-list>.active>a, .nav-list>.active>a:hover, .nav-list>.active>a:focus {
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.2);
+    background-color: #08c;
+}
+
+.ztree li a.curSelectedNode {
+    background-color: #f6f6f6;
+    color: #0663a2;
+    border: 1px #ddd solid;
+}
+
+
+
+.map-tooltip {
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    color: white;
+    padding: 4px 8px;
+    opacity: 0.7;
+    white-space: nowrap;
+}
+.map-tooltip-measure {
+    opacity: 1;
+}
+  
+.map-tooltip-measure:before{
+    border-top: 6px solid rgba(0, 0, 0, 0.5);
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+    content: "";
+    position: absolute;
+    bottom: -6px;
+    margin-left: -7px;
+    left: 50%;
+}
+
+.map_plot_i {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    float: left;
+   	margin-right: 4px;
+   	margin-top: 2px;
+    font-size: 14px;
+    background: url("../images/bh1.png") no-repeat;
+}
+
+.btn{
+	font-size: 18px;
+}
+
+.layui-layer-title{
+	font-size: 18px;
+}
+
+
+.mapfilter{
+	-webkit-filter: invert(.8);
+	filter: invert(.8); 
+	
+	
+}
